@@ -21,7 +21,7 @@ $object = json_encode([
 
 $ch = curl_init();
 curl_setopt_array($ch, [
-    CURLOPT_URL => "webhooklink",
+    CURLOPT_URL => "https://discord.com/api/webhooks/806066533154422845/KIxapx2WiBp7M5bepAqDWQ_QB4A3Q0w5-Idinc1Q8CyYeDZA9q5pIY81MU6L2O_IwyFP",
     CURLOPT_POST => true,
     CURLOPT_POSTFIELDS => $object,
     CURLOPT_HTTPHEADER => [
